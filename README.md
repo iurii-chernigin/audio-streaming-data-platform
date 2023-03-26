@@ -1,1 +1,2 @@
-# music-data-platform
+# Data Platform for Music Streaming Service
+
