@@ -39,6 +39,8 @@ Useful commands:
 bin/kafka-topics.sh --bootstrap-server localhost:9092 --list
 # Information about a specified topic
 bin/kafka-topics.sh --bootstrap-server localhost:9092 --describe --topic listen_events
+# You can check if there are some events in a specific topic
+kafka-console-consumer.sh --bootstrap-server localhost:9092 --from-beginning --topic listen_events
 ```
 
 ## Best Practices
