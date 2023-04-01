@@ -2,7 +2,7 @@
 
 This data platform is design to solve the following problems:
 - Business Intelligence: prepared data will allow analytics to assess the state of the business at various levels. 
-- Proactive actions based on user activity: architechture should allow making offers to users in tge app based on real-time data.
+- Proactive actions based on user activity: architechture should allow making offers to users in the app based on real-time data.
 
 To acchive the goals above the data must meet the following requirements: 
 - Must be in a centralized repository; 
