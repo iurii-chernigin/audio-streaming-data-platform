@@ -48,6 +48,17 @@ source ~/.zshrc
 brew install sbt
 ```
 
+##### Data generation examples
+
+To execute commands below the Kafka instace should be running. Follow instructions here: https://github.com/iurii-chernigin/audio-streaming-data-platform/tree/main/kafka
+
+```bash
+git clone git@github.com:viirya/eventsim.git && cd eventsim
+chmod +x bin/eventsim
+bin/eventsim -c examples/alt-example-config.json --from 10 --nusers 50 --growth-rate 0.30 -k localhost:9092 --continuous
+```
+
+
 ### Components description
 #### Java Specification
 
