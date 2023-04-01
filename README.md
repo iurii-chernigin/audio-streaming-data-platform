@@ -1,6 +1,18 @@
 # Data Platform for Music Streaming Service
 
-This data platform is design to solve the following problems with business observability 
+This data platform is design to solve the following problems:
+- Business Intelligence: prepared data will allow analytics to assess the state of the business at various levels. 
+- Proactive actions based on user activity: architechture should allow making offers user in app based on real-time data.
+- Based on music listening figures the compant should pay to license owners.
+
+To acchive the goals above the data must meet the following requirements: 
+- Must be in a centralized repository; 
+- Events should be written to the storage with a delay of no more than one minute;
+- Must reflect business process;
+- Must be clean and reliable;
+- Must be available 24/7;
+- Must be documented.
+
 
 ## Architecture Design
 
