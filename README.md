@@ -1,5 +1,7 @@
 # Data Platform for Music Streaming Service
 
+This data platform is design to solve the following problems with business observability 
+
 ## Architecture Design
 
 ![plot](./architechture.png)
