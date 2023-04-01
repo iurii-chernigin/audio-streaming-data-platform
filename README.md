@@ -26,8 +26,10 @@ Instructions are here: https://github.com/iurii-chernigin/audio-streaming-data-p
 
 ### Streaming Data Storage
 
+Link to the implementation: https://github.com/iurii-chernigin/audio-streaming-data-platform/kafka
+
 ### Streaming Data Consumers
 
-Link to implementation of consumer: https://github.com/iurii-chernigin/audio-streaming-java-consumer
+Link to the implementation: https://github.com/iurii-chernigin/audio-streaming-java-consumer
 
 A Java client example to ingest data to BigQuery: https://cloud.google.com/bigquery/docs/write-api#java_client
