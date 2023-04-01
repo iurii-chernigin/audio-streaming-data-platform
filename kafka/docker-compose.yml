@@ -1,7 +1,7 @@
 version: '3.6'
 networks:
   default:
-    name: kafka-spark-network
+    name: kafka_network
     external: true
 services:
   broker:
