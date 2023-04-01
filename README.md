@@ -1,4 +1,4 @@
-# Data Platform for Music Streaming Service
+# Data Platform for Audio Streaming Service
 
 This data platform is design to solve the following problems:
 - Business Intelligence: prepared data will allow analytics to assess the state of the business at various levels. 
