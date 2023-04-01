@@ -48,7 +48,7 @@ source ~/.zshrc
 brew install sbt
 ```
 
-##### Data generation examples
+#### Data generation examples
 
 To execute commands below the Kafka instace should be running. Follow instructions here: https://github.com/iurii-chernigin/audio-streaming-data-platform/tree/main/kafka
 
