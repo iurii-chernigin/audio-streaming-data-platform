@@ -9,9 +9,9 @@
 This area contains data from data sources in raw format. Data looks here as it looks in a source system.
 
 Tables: 
-    - listen_events;
-    - auth_events;
-    - page_view_events.
+- listen_events;
+- auth_events;
+- page_view_events.
 
 ### Core
 
