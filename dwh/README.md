@@ -2,6 +2,8 @@
 
 ## Up Level Diagram
 
+![plot](./dwh.png)
+
 ## Data Areas
 
 ### Raw / Staging 
