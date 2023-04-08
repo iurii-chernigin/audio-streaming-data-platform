@@ -2,7 +2,10 @@
 
 ## Up Level Diagram
 
-<center>![plot](./dwh.png)</center>
+<p align="center">
+  <img src="./dwh.png"</img>
+</p>
+  
 
 ## Data Areas
 
