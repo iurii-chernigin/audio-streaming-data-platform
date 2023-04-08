@@ -1,0 +1,83 @@
+[
+    {
+        "name": "ts",
+        "type": "TIMESTAMP",
+        "mode": "NULLABLE",
+        "description": "Time when an event occured"
+    },
+    {
+        "name": "sessionId",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "level",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "itemInSession",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "city",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "zip",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "state",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "userAgent",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "lon",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "lat",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "userId",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "lastName",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "firstName",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "gender",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "registration",
+        "type": "TIMESTAMP",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "success",
+        "type": "BOOLEAN",
+        "mode": "NULLABLE"
+    }
+]

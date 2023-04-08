@@ -16,7 +16,6 @@ Tables:
 - listen_events;
 - page_view_events.
 
-
 ![plot](./raw-data-schema.png)
 
 ### Core

@@ -1,0 +1,113 @@
+[
+    {
+        "name": "ts",
+        "type": "TIMESTAMP",
+        "mode": "NULLABLE",
+        "description": "Event timestamp"
+    },
+    {
+        "name": "sessionId",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "auth",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "level",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "itemInSession",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "city",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "zip",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "state",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "userAgent",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "lon",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "lat",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "userId",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "lastName",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "firstName",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "gender",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "registration",
+        "type": "TIMESTAMP",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "artist",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "song",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "duration",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "page",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "method",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "status",
+        "type": "integer",
+        "mode": "NULLABLE"
+    }
+]
