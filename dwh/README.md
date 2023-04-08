@@ -10,10 +10,14 @@
 
 This area contains data from data sources in raw format. Data looks here as it looks in a source system.
 
-Tables: 
-- listen_events;
+Tables:
 - auth_events;
+- status_change_events;
+- listen_events;
 - page_view_events.
+
+
+![plot](./raw-data-schema.png)
 
 ### Core
 
