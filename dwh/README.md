@@ -19,11 +19,13 @@ Tables:
 - listen_events;
 - page_view_events.
 
-![plot](./raw-data-schema.png)
+![plot](./raw-model.png)
 
 ### Core
 
 This area contains cleaned and normalized data, that reflects business processes, their entities and relationships. 
+
+![plot](./core-model.png)
 
 ### Data Mart
 
