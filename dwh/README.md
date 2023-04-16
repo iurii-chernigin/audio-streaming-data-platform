@@ -13,7 +13,7 @@
 
 This area contains cleaned and normalized data that reflects business processes, their entities and relationships. 
 
-Data normilized according to the Data Vault 2.0 metology. Implementation is built using dbt with a dbtvault package. Link to implementation: https://github.com/iurii-chernigin/audio-streaming-dbt-datavault
+Data normalized according to the Data Vault 2.0 metology. Implementation is built using dbt with a dbtvault package. Link to implementation: https://github.com/iurii-chernigin/audio-streaming-dbt-datavault
 
 
 ![plot](./core-model.png)
