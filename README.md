@@ -33,3 +33,8 @@ Link to the implementation: https://github.com/iurii-chernigin/audio-streaming-d
 Link to the implementation: https://github.com/iurii-chernigin/audio-streaming-java-consumer
 
 A Java client example to ingest data to BigQuery: https://cloud.google.com/bigquery/docs/write-api#java_client
+
+### Usefull links
+
+- dbt: [models orchestration with Prefect](https://prefecthq.github.io/prefect-dbt/)
+- Terraform: [deploy applications with the Helm provider](https://developer.hashicorp.com/terraform/tutorials/kubernetes/helm-provider)
