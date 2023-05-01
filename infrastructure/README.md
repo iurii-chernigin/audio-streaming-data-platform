@@ -1,16 +1,34 @@
 # Google Kubernetes Engine Management
 
+# Useful links
+
+- [Deploy Apache Kafka to Kubernetes with Bitnami packages](https://artifacthub.io/packages/helm/bitnami/kafka)
+- [Deploy a highly-available Kafka cluster on GKE](https://cloud.google.com/kubernetes-engine/docs/tutorials/stateful-workloads/kafka)
+- [Compute Engine general-purpose machine family](https://cloud.google.com/compute/docs/general-purpose-machines)
+
+# Pre-requiests 
+
+- [ ] [Install the gcloud CLI](https://cloud.google.com/sdk/gcloud#download_and_install_the)
+- [ ] [Install Helm](https://helm.sh/docs/intro/install/)
+- [ ] [Install the Kubernetes command-line tool (kubectl)](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
+- [ ] [Install Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 
 # Launch Instructions
 
-1. Set environment variables
+1. Set up environment variables
 
 ```bash
 export PROJECT_ID=audio-streaming-data-platform
 export GKE_KAFKA_NAMESPACE=kafka
 ```
 
-2. Provision a GKE cluster with Terraform
+2. Set up gcloud project
+
+```bash
+gcloud config set project $PROJECT_ID
+```
+
+3. Provision a GKE cluster with Terraform
 
 Update variables in terraform/terraform.tfvars and run commands below:
 ```bash
