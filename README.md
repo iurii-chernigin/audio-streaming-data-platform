@@ -14,11 +14,11 @@ To acchive the goals above the data must meet the following requirements:
 
 # Table of Contents
 
-1. [Architecture Design](##Architecture-Design)
-2. [Data Generation](##Data-Generation)
-3. [Data Ingestion](##Data Ingestion)
-4. [Data Warehouse](##Data Warehouse)
-5. [BI](##BI)
+1. [Architecture Design](#architecture-design)
+2. [Data Generation](#data-generation)
+3. [Data Ingestion](#data-ingestion)
+4. [Data Warehouse](#data-warehouse)
+5. [BI](#bi)
 
 ## Architecture Design
 
