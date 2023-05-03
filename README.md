@@ -36,9 +36,7 @@ There are two options:
 
 Custom Java consumers are used to consume and send events from Kafka topics to Data Warehouse tables.
 
-Link to Java application implementation: https://github.com/iurii-chernigin/audio-streaming-java-consumer
-
-A Java client example to ingest data to BigQuery: https://cloud.google.com/bigquery/docs/write-api#java_client
+Link to Java application implementation: https://github.com/iurii-chernigin/audio-streaming-java-consumer/tree/main#readme
 
 ### Usefull links
 
