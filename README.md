@@ -45,9 +45,15 @@ Data Warehouse is built on BigQuery: https://github.com/iurii-chernigin/audio-st
 There are three main data layers:
 - Raw - raw data ingested from Kafka;
 - Core - cleaned and normalized data according to Data Vault 2.0;
-- Data Marts - wide tables that are easy to analyze and create reports & dashboards.
+- Data Marts - wide tables that are easy to analyze and create reports & dashboards. This is the main entry point into the data for data analysts & scientists.
 
 To transform the data, dbt with the dbtvault library is used: https://github.com/iurii-chernigin/audio-streaming-dbt-datavault
+
+## BI
+
+Looker is used to create reports & dashboards. The dashboard in the picture below is available at the link: https://lookerstudio.google.com/s/iWa4oRy9nc4
+
+![plot](./looker-dashboard.png)
 
 ### Usefull links
 
