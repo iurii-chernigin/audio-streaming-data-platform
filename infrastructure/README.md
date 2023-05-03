@@ -2,7 +2,7 @@
 
 This section contains resources for deploying and maintaining infrustructure components for the data platform. 
 
-The following options are currently availible:
+The following options are currently available:
 - Deploy Kafka on Google Kubernetes Cluster with Terraform;
 - Deploy Kafka locally in Docker.
 
