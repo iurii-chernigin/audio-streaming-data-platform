@@ -4,14 +4,6 @@ This data platform is design to solve the following problems:
 - Business Intelligence: prepared data will allow analytics to assess the state of the business at various levels. 
 - _[plans]_ Proactive actions based on user activity: architechture should allow making offers to users in the app based on real-time data.
 
-To acchive the goals above the data must meet the following requirements: 
-- Data must be in a centralized repository; 
-- Events should be written to the storage with a delay of no more than one minute;
-- Data model must reflect business processes;
-- Data must be clean and reliable;
-- Data must be accessible 24 /7
-- Must be documented.
-
 # Table of Contents
 
 1. [Architecture Design](#architecture-design)
@@ -23,6 +15,14 @@ To acchive the goals above the data must meet the following requirements:
 ## Architecture Design
 
 ![plot](./architechture.png)
+
+Requirements: 
+- Data must be in a centralized repository; 
+- Events should be written to the storage with a delay of no more than one minute;
+- Data model must reflect business processes;
+- Data must be clean and reliable;
+- Data must be accessible 24 /7
+- Must be documented.
 
 ## Data Generation 
 
