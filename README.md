@@ -53,7 +53,7 @@ To transform the data, dbt with the dbtvault library is used: https://github.com
 
 Looker is used to create reports & dashboards. The dashboard in the picture below is available at the link: https://lookerstudio.google.com/s/iWa4oRy9nc4
 
-![plot](./looker-dashboard)
+![plot](./looker-dashboard.png)
 
 ### Usefull links
 
