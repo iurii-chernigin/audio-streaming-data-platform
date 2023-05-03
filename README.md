@@ -16,7 +16,7 @@ This data platform is design to solve the following problems:
 
 ![plot](./architechture.png)
 
-Requirements: 
+Requirements & SLA: 
 - Data must be in a centralized repository; 
 - Events should be written to the storage with a delay of no more than one minute;
 - Data model must reflect business processes;
