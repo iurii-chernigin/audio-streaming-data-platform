@@ -18,7 +18,7 @@ To acchive the goals above the data must meet the following requirements:
 2. [Data Generation](#data-generation)
 3. [Data Ingestion](#data-ingestion)
 4. [Data Warehouse](#data-warehouse)
-5. [BI](#bi)
+5. [Data Visualization (BI)](#bi)
 
 ## Architecture Design
 
