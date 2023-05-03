@@ -38,6 +38,17 @@ Custom Java consumers are used to consume and send events from Kafka topics to D
 
 Link to Java application implementation: https://github.com/iurii-chernigin/audio-streaming-java-consumer/tree/main#readme
 
+## Data Warehouse
+
+Data Warehouse is built on BigQuery: https://github.com/iurii-chernigin/audio-streaming-data-platform/tree/main/data-warehouse#readme
+
+There are three main data layers:
+- Raw - raw data from ingested from Kafka;
+- Core - cleaned and normalized data according to Data Vault 2.0;
+- Data Marts - wide tabled that easy to analyze and create reports & dashboards.
+
+To transform the data, dbt with the dbtvault library is used: https://github.com/iurii-chernigin/audio-streaming-dbt-datavault
+
 ### Usefull links
 
 - dbt: [models orchestration with Prefect](https://prefecthq.github.io/prefect-dbt/)
