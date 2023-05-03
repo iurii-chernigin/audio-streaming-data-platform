@@ -39,13 +39,15 @@ There are two options:
 - Deploy Kafka with Google Kubernetes Engine and Terraform: [infrastructure/terraform](https://github.com/iurii-chernigin/audio-streaming-data-platform/tree/main/infrastructure/terraform#readme)
 - Deploy Kafka locally in Docker: [infrastructure/kafka](https://github.com/iurii-chernigin/audio-streaming-data-platform/tree/main/infrastructure/kafka#readme)
 
-[![Made With Terraform !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
+\#terraform \#kubernetes \#docker \#kafka 
 
 ### Kafka Consumers
 
 Custom Java consumers are used to consume and send events from Kafka topics to Data Warehouse tables.
 
 Link to Java application implementation: [audio-streaming-java-consumer](https://github.com/iurii-chernigin/audio-streaming-java-consumer/tree/main#readme)
+
+\#java \#kafka-consumers
 
 ## Data Warehouse
 
@@ -58,11 +60,15 @@ There are three main data layers:
 
 To transform the data, dbt with the dbtvault library is used: [audio-streaming-dbt-datavault](https://github.com/iurii-chernigin/audio-streaming-dbt-datavault)
 
+\#bigquery \#dbt \#dbtvault \#data-vault
+
 ## BI
 
 Looker is used to create reports & dashboards. The dashboard in the picture below is available at the link: https://lookerstudio.google.com/s/iWa4oRy9nc4
 
 ![plot](./looker-dashboard.png)
+
+\#looker
 
 ### Usefull links
 
