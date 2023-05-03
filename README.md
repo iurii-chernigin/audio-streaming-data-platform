@@ -43,7 +43,7 @@ Link to Java application implementation: https://github.com/iurii-chernigin/audi
 Data Warehouse is built on BigQuery: https://github.com/iurii-chernigin/audio-streaming-data-platform/tree/main/data-warehouse#readme
 
 There are three main data layers:
-- Raw - raw data from ingested from Kafka;
+- Raw - raw data ingested from Kafka;
 - Core - cleaned and normalized data according to Data Vault 2.0;
 - Data Marts - wide tabled that easy to analyze and create reports & dashboards.
 
