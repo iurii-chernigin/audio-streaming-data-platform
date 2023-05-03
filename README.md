@@ -39,6 +39,8 @@ There are two options:
 - Deploy Kafka with Google Kubernetes Engine and Terraform: [infrastructure/terraform](https://github.com/iurii-chernigin/audio-streaming-data-platform/tree/main/infrastructure/terraform#readme)
 - Deploy Kafka locally in Docker: [infrastructure/kafka](https://github.com/iurii-chernigin/audio-streaming-data-platform/tree/main/infrastructure/kafka#readme)
 
+[![Made With Terraform !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
+
 ### Kafka Consumers
 
 Custom Java consumers are used to consume and send events from Kafka topics to Data Warehouse tables.
