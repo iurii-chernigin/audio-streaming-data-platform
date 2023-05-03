@@ -7,9 +7,9 @@ This data platform is design to solve the following problems:
 To acchive the goals above the data must meet the following requirements: 
 - Data must be in a centralized repository; 
 - Events should be written to the storage with a delay of no more than one minute;
-- Must reflect business process;
-- Must be clean and reliable;
-- Must be available 24/7;
+- Data model must reflect business processes;
+- Data must be clean and reliable;
+- Data must be accessible 24 /7
 - Must be documented.
 
 # Table of Contents
