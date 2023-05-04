@@ -17,6 +17,6 @@ Link to the dbt models: [audio-streaming-dbt-datavault/models/datamarts](https:/
 
 | Table    | Description | Optimizations |
 | -------- | ------- | ------- |
-| mart_song_play  | Wide tables build on top of Data Vault, contains cleaned and verified information about song plays    | - Partitioned by play_start_date, the field is used for selecting dates on the dashboard; Clustered by user_id, song_name, location_city, because these fields are used to calculate diffrent metrics (with group by) for downstream data marts |
+| mart_song_play  | Wide tables build on top of Data Vault, contains cleaned and verified information about song plays    | - Partitioned by play_start_date, the field is used for selecting dates on the dashboard; <br>- Clustered by user_id, song_name, location_city, because these fields are used to calculate diffrent metrics (with group by) for downstream data marts |
 | mart_song_play_hourly_metrics | Contains song plays metrics that are distributed by date and hour    | - Partitioned by play_date, the field is used for selecting dates on the dashboard |
 | mart_song_play_top_10_songs    | Contains metrics on the top-10 listened to songs for each day  | - Partitioned by play_date, the field is used for selecting dates on the dashboard  |
