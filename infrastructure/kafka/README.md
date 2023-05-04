@@ -8,6 +8,10 @@ When you execute commands below you should be withid the docker-compose.yaml dir
 
 ## Run Kafka in Docker
 
+Create network
+```
+docker create network kafka_network
+```
 Build Kafka service based on docker-compose.yaml
 ```
 docker-compose build
