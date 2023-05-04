@@ -22,7 +22,7 @@ Requirements & SLA:
 - Data model must reflect business processes;
 - Data must be clean and reliable;
 - Data must be accessible 24/7;
-- Must be documented.
+- Data must be documented.
 
 ## Data Generation 
 
