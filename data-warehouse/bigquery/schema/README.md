@@ -1,4 +1,4 @@
-# Store parameters 
+# Tables Specification
 
 | Table    | Description | Optimizations |
 | -------- | ------- | ------- |
