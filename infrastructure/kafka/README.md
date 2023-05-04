@@ -1,4 +1,4 @@
-# There will be instructions how to run docker container properly
+# Instructions for running Kafka in Docker
 
 
 ## Run Kafka in Docker
