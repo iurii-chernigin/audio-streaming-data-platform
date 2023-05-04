@@ -1,4 +1,4 @@
-# Google Kubernetes Engine Management
+# Deploy Kafka with Terraform and Google Kubernetes Engine
 
 # Useful links
 
