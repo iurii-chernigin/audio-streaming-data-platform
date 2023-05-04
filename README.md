@@ -53,7 +53,7 @@ Link to Java application implementation: [audio-streaming-java-consumer](https:/
 
 Data Warehouse is built on BigQuery.
 
-**Documentation of the data model, table specification**: [audio-streaming-data-platform/data-warehouse](https://github.com/iurii-chernigin/audio-streaming-data-platform/tree/main/data-warehouse#readme)
+**Documentation of the data model (including tables specification & optimizations)**: [audio-streaming-data-platform/data-warehouse](https://github.com/iurii-chernigin/audio-streaming-data-platform/tree/main/data-warehouse#readme)
 
 There are three main data layers:
 - Raw - raw data ingested from Kafka;
