@@ -4,13 +4,19 @@
 
 [Install Docker](https://docs.docker.com/desktop/install/ubuntu/)
 
+When you execute commands below you should be withid the docker-compose.yaml directory
+
 ## Run Kafka in Docker
 
-Compose & Run Container with Kafka
+Build Kafka service based on docker-compose.yaml
+```
+docker-compose build
+```
+Create & Run a container with Kafka
 ```
 docker-compose up
 ```
-If you want to run docker in container in background mode
+If you want to run a container in the background
 ```
 docker-compose up -d
 ```
