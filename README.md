@@ -60,7 +60,7 @@ There are three main data layers:
 - Core - cleaned and normalized data according to Data Vault 2.0;
 - Data Marts - wide tables that are easy to analyze and create reports & dashboards. This is the main entry point into the data for data analysts & scientists.
 
-To transform the data, dbt with the dbtvault library is used: [audio-streaming-dbt-datavault](https://github.com/iurii-chernigin/audio-streaming-dbt-datavault)
+**To transform the data, dbt with the dbtvault library is used**: [audio-streaming-dbt-datavault](https://github.com/iurii-chernigin/audio-streaming-dbt-datavault)
 
 \#bigquery \#dbt \#dbtvault \#data-vault
 
