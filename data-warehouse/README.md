@@ -24,7 +24,7 @@ Data normalized according to the Data Vault 2.0 metology. Implementation is buil
 
 This area contains tables & views that are useful for analytic research or building machine learning models.
 
-Link to the dbt models: [audio-streaming-dbt-datavault/models/datamarts](https://github.com/iurii-chernigin/audio-streaming-dbt-datavault/tree/main/models/datamarts)
+**Link to the dbt models**: [audio-streaming-dbt-datavault/models/datamarts](https://github.com/iurii-chernigin/audio-streaming-dbt-datavault/tree/main/models/datamarts)
 
 | Table    | Description | Optimizations |
 | -------- | ------- | ------- |
