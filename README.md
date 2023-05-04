@@ -21,7 +21,7 @@ Requirements & SLA:
 - Events should be written to the storage with a delay of no more than one minute;
 - Data model must reflect business processes;
 - Data must be clean and reliable;
-- Data must be accessible 24 /7
+- Data must be accessible 24/7;
 - Must be documented.
 
 ## Data Generation 
