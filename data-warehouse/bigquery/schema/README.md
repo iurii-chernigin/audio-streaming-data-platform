@@ -1,4 +1,6 @@
-# Tables Specification
+# Raw Tables Specification
+
+This section describes data in the raw layer only, all other views & tables are generetated by dbt models.
 
 | Table    | Description | Optimizations |
 | -------- | ------- | ------- |
