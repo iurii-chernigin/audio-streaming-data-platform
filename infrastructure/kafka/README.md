@@ -10,7 +10,7 @@ When you execute commands below you should be withid the docker-compose.yaml dir
 
 Create network
 ```
-docker create network kafka_network
+docker network create kafka_network
 ```
 Build Kafka service based on docker-compose.yaml
 ```
