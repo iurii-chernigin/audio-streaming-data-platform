@@ -1,14 +1,16 @@
 # Instructions for deploying Kafka in Docker
 
+## Before you begin
+
+[Install Docker](https://docs.docker.com/desktop/install/ubuntu/)
 
 ## Run Kafka in Docker
 
-Docker network creation
-```bash
-docker network  create kafka-spark-network
-```
-
 Compose & Run Container with Kafka
+```
+docker-compose up
+```
+If you want to run docker in container in background mode
 ```
 docker-compose up -d
 ```
@@ -41,6 +43,13 @@ bin/kafka-topics.sh --bootstrap-server localhost:9092 --list
 bin/kafka-topics.sh --bootstrap-server localhost:9092 --describe --topic listen_events
 # You can check if there are some events in a specific topic
 bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --from-beginning --topic listen_events
+```
+
+## Clean up
+
+Compose & Run Container with Kafka
+```
+docker-compose down
 ```
 
 ## Best Practices
